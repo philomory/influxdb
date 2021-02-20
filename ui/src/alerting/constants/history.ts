@@ -75,19 +75,19 @@ export const NOTIFICATION_FIELDS: Fields = [
 ]
 
 export const EXAMPLE_STATUS_SEARCHES = [
-  '"check" == "my check"',
+  '"checkName" == "my check"',
   '"level" != "ok"',
   '"level" == "warn"',
   '"level" == "crit"',
   '"message" =~ /exceeded capacity/',
-  '"check" == "my check" and ("level" == "crit" or "level" == "warn")',
+  '"checkName" == "my check" and ("level" == "crit" or "level" == "warn")',
 ]
 
 export const EXAMPLE_NOTIFICATION_SEARCHES = [
-  '"check" == "my check"',
+  '"checkName" == "my check"',
   '"level" == "crit"',
   '"level" != "ok"',
-  '"notification rule" == "my rule"',
+  '"notificationRuleName" == "my rule"',
 ]
 
 export const HISTORY_TYPE_QUERY_PARAM = 'type'
